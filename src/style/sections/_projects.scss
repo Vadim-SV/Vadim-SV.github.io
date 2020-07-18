@@ -3,6 +3,7 @@
   color: $dark-blue-text;
   margin-top: -10rem;
   padding-top: 15rem;
+  width: 100%;
 
   @include respond(tab-land) {
     margin-top: 0;
@@ -11,6 +12,7 @@
 
   .project-wrapper {
     margin-bottom: 15rem;
+    
 
     @include respond(phone) {
       margin-bottom: 0rem;
